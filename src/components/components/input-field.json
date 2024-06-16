@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_components_input_fields",
+  "info": {
+    "displayName": "inputField",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "inputType": {
+      "type": "enumeration",
+      "enum": [
+        "input",
+        "textarea",
+        "select",
+        "imagePicker"
+      ]
+    },
+    "props": {
+      "type": "json"
+    },
+    "rules": {
+      "type": "json"
+    },
+    "defaultValue": {
+      "type": "string"
+    }
+  }
+}

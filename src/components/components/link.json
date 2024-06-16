@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_links",
+  "info": {
+    "displayName": "Link"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    },
+    "text": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    }
+  }
+}
